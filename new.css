@@ -1,0 +1,51 @@
+*
+{
+background-color:beige;
+}
+form { 
+    font-size: 20px;
+   margin:50px 500px ; 
+   padding:10px 20px;
+    text-align:left;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:rgb(61, 175, 137);
+    width:500px;
+    height:auto;
+
+}
+form > input{
+    font-size: 20px;
+}
+form > label{
+    background-color:rgb(61, 175, 137);
+    margin:25px 0px;
+}
+nav ul 
+{
+ font-size:25px;
+margin:0px 500px;
+list-style-type:none;
+ 
+display: flex;
+justify-content: flex-start;
+gap: 15px;
+}
+ul{
+    display: block;
+    background: rgb(195, 49, 49);
+}
+nav ul li a{
+    background: rgb(171, 92, 191);
+    text-decoration: none;
+    color: #000;
+}
+nav :hover{
+    
+    transform:matrix(30px);
+    font-weight:bold;
+}
+#btn{
+    font-size: 25px;
+    margin:0px  200px;
+}
